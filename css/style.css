@@ -1,16 +1,20 @@
 html,body{
     margin: 0 auto;
-    height: 100%;
-    width: 100%:
+  
 }
 .container-fluid{
     padding-right: 0px;
     padding-left: 0px;
 }
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 /*Personnalisation navbar*/
 nav{
     position: fixed;
     width: 100%;
+    z-index: 10000;
 }
 .navbar-default{
     background-color:#292929;
@@ -75,7 +79,21 @@ nav{
     border-radius: 0px;
 }
 /*fin personnalisation*/
+
+
+/*Carousel*/
+.carousel-control.right{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgb(255, 255, 255) 100%)
+}
+.carousel-control.left{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, .0001) 0%, rgb(255, 255, 255) 100%)
+}
+/*fin carousel*/
 h1{
+    text-align: center;
     margin-top: 60px;
-    margin-left: 15px;
+}
+.description{
+    margin-top: 5%;
+    text-align: justify;
 }
