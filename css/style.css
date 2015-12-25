@@ -96,7 +96,15 @@ h1{
 h3{
     text-align: center;
 }
+p{
+    transition: all 0.15s;
+}
+p:hover{
+    font-weight: 500;
+    transform: scale(1.05);
+}
 .description{
     margin-top: 5%;
     text-align: justify;
 }
+
