@@ -15,6 +15,7 @@
 }
 }
 #soleil{
+    z-index: 900;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -22,12 +23,14 @@
     position: absolute;
     top: 270px;
     left: 190px;
+    transform: scale(0.75)
 }
 @keyframes ellipse_mercure {
 from { transform: rotate(0deg) translateY(-55px);}
 to { transform: rotate(360deg) translateY(-55px);}
 }
 #mercure{
+    z-index: 850;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -38,10 +41,11 @@ to { transform: rotate(360deg) translateY(-55px);}
     animation: ellipse_mercure 5s linear infinite;
 }
 #orbite-mercure{
+    z-index: 800;
     width: 110px;
     height: 110px;
     border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(230,248,255,0.5);
     position: absolute;
     top: 255px;
     left: 175px;
@@ -51,6 +55,7 @@ from { transform: rotate(0deg) translateY(-80px);}
 to { transform: rotate(360deg) translateY(-80px);}
 }
 #venus{
+    z-index: 750;
     width: 21px;
     height: 21px;
     border-radius: 50%;
@@ -61,10 +66,11 @@ to { transform: rotate(360deg) translateY(-80px);}
     animation: ellipse_venus 7s linear infinite;
 }
 #orbite-venus{
+    z-index: 700;
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(230,248,255,0.5);
     position: absolute;
     top: 230px;
     left: 150px;
@@ -74,6 +80,7 @@ from { transform: rotate(0deg) translateY(-111px);}
 to { transform: rotate(360deg) translateY(-111px);}
 }
 #terre{
+    z-index: 650;
     width: 23px;
     height: 23px;
     border-radius: 50%;
@@ -84,10 +91,11 @@ to { transform: rotate(360deg) translateY(-111px);}
     animation: ellipse_terre 10s linear infinite;
 }
 #orbite-terre{
+    z-index: 600;
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(230,248,255,0.5);
     position: absolute;
     top: 195px;
     left: 115px;
@@ -97,6 +105,7 @@ from { transform: rotate(0deg) translateY(-143px);}
 to { transform: rotate(360deg) translateY(-143px);}
 }
 #mars{
+    z-index: 550;
     width: 21px;
     height: 21px;
     border-radius: 50%;
@@ -107,10 +116,11 @@ to { transform: rotate(360deg) translateY(-143px);}
     animation: ellipse_mars 13s linear infinite;
 }
 #orbite-mars{
+    z-index: 500;
     width: 290px;
     height: 290px;
     border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(230,248,255,0.5);
     position: absolute;
     top: 165px;
     left: 85px;
@@ -120,6 +130,7 @@ from { transform: rotate(0deg) translateY(-175px);}
 to { transform: rotate(360deg) translateY(-175px);}
 }
 #jupiter{
+    z-index: 450;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -130,10 +141,11 @@ to { transform: rotate(360deg) translateY(-175px);}
     animation: ellipse_jupiter 16s linear infinite;
 }
 #orbite-jupiter{
+    z-index: 400;
     width: 355px;
     height: 355px;
     border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(230,248,255,0.5);
     position: absolute;
     top: 130px;
     left: 53px;
@@ -143,6 +155,7 @@ from { transform: rotate(0deg) translateY(-215px);}
 to { transform: rotate(360deg) translateY(-215px);}
 }
 #saturne{
+    z-index: 350;
     width: 33px;
     height: 33px;
     border-radius: 50%;
@@ -153,6 +166,7 @@ to { transform: rotate(360deg) translateY(-215px);}
     animation: ellipse_saturne 20s linear infinite;
 }
 #ring{
+    z-index: 350;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -163,10 +177,11 @@ to { transform: rotate(360deg) translateY(-215px);}
     transform: skewY(50deg);
 }
 #orbite-saturne{
+    z-index: 300;
     width: 430px;
     height: 430px;
     border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(230,248,255,0.5);
     position: absolute;
     top: 90px;
     left: 17px;
@@ -176,6 +191,7 @@ from { transform: rotate(0deg) translateY(-255px);}
 to { transform: rotate(360deg) translateY(-255px);}
 }
 #uranus{
+    z-index: 250;
     width: 22px;
     height: 22px;
     border-radius: 50%;
@@ -186,10 +202,11 @@ to { transform: rotate(360deg) translateY(-255px);}
     animation: ellipse_uranus 23s linear infinite;
 }
 #orbite-uranus{
+    z-index: 200;
     width: 510px;
     height: 510px;
     border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(230,248,255,0.5);
     position: absolute;
     top: 55px;
     left: -21px;
@@ -199,6 +216,7 @@ from { transform: rotate(0deg) translateY(-290px);}
 to { transform: rotate(360deg) translateY(-290px);}
 }
 #neptune{
+    z-index: 150;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -209,11 +227,23 @@ to { transform: rotate(360deg) translateY(-290px);}
     animation: ellipse_neptune 26s linear infinite;
 }
 #orbite-neptune{
+    z-index: 100;
     width: 580px;
     height: 580px;
     border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(230,248,255,0.5);
     position: absolute;
     top: 20px;
     left: -58px;
+}
+#orbite-neptune:hover,#orbite-uranus:hover,#orbite-saturne:hover,#orbite-jupiter:hover,#orbite-mars:hover,#orbite-terre:hover,#orbite-venus:hover,#orbite-mercure:hover{
+    transition:all 0.5s linear; 
+    border: 2px solid rgba(230,248,255,0.9);
+}
+@keyframes soleil{
+    50%{transform: scale(0.85);}
+    100%{transform: scale(0.75);}
+}
+#soleil:hover{
+    animation: soleil 3s linear infinite;
 }
