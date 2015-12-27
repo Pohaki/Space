@@ -108,3 +108,56 @@ p:hover{
     text-align: justify;
 }
 
+.desc-planete{
+    background-color: rgba(255,255,255,0.45);
+    padding: 20px 45px;
+    margin-top: 5%;
+    position: relative;
+    text-align: justify;
+    box-shadow: 15px 6px 40px 7px black;
+}
+@media all and (max-width:1024px){
+    .desc-planete{
+        margin-top: 10%;
+    }
+}
+@media all and (max-width:600px){
+    .desc-planete{
+        margin-top: 120%;
+    }
+}
+@media all and (max-width:414px){
+    .desc-planete{
+        margin-top: 180%;
+    }
+}
+@media all and (max-width:384px){
+    .desc-planete{
+        margin-top: 200%;
+    }
+}
+@media all and (max-width:375px){
+    .desc-planete{
+        margin-top: 200%;
+    }
+}
+@media all and (max-width:320px){
+    .desc-planete{
+        margin-top: 238%;
+    }
+}
+.desc-planete h3{
+    border-bottom: 2px solid #ffffff;
+}
+.desc-planete ul{
+    padding-left:0px; 
+}
+.desc-planete li{
+    list-style: none;
+}
+.desc-planete .active{
+    display:block;
+}
+.desc-planete article{
+    display: none;
+}

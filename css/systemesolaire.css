@@ -1,6 +1,18 @@
 #container-système{
-    height: 600px;
+    height: 800px;
     position: relative;
+    background-image: url(../img/neon_void_2.jpg);
+    overflow: hidden;
+}
+@media all and (max-width:1024px){
+    #container-système{
+    height: 1200px;
+}
+}
+@media all and (max-width:480px){
+    #container-système{
+    height: 1700px;
+}
 }
 #soleil{
     width: 80px;
@@ -29,7 +41,7 @@ to { transform: rotate(360deg) translateY(-55px);}
     width: 110px;
     height: 110px;
     border-radius: 50%;
-    border: 2px solid #50848f;
+    border: 2px solid rgba(255,255,255,0.2);
     position: absolute;
     top: 255px;
     left: 175px;
@@ -52,7 +64,7 @@ to { transform: rotate(360deg) translateY(-80px);}
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    border: 2px solid #50848f;
+    border: 2px solid rgba(255,255,255,0.2);
     position: absolute;
     top: 230px;
     left: 150px;
@@ -75,7 +87,7 @@ to { transform: rotate(360deg) translateY(-111px);}
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    border: 2px solid #50848f;
+    border: 2px solid rgba(255,255,255,0.2);
     position: absolute;
     top: 195px;
     left: 115px;
@@ -98,7 +110,7 @@ to { transform: rotate(360deg) translateY(-143px);}
     width: 290px;
     height: 290px;
     border-radius: 50%;
-    border: 2px solid #50848f;
+    border: 2px solid rgba(255,255,255,0.2);
     position: absolute;
     top: 165px;
     left: 85px;
@@ -121,7 +133,7 @@ to { transform: rotate(360deg) translateY(-175px);}
     width: 355px;
     height: 355px;
     border-radius: 50%;
-    border: 2px solid #50848f;
+    border: 2px solid rgba(255,255,255,0.2);
     position: absolute;
     top: 130px;
     left: 53px;
@@ -154,7 +166,7 @@ to { transform: rotate(360deg) translateY(-215px);}
     width: 430px;
     height: 430px;
     border-radius: 50%;
-    border: 2px solid #50848f;
+    border: 2px solid rgba(255,255,255,0.2);
     position: absolute;
     top: 90px;
     left: 17px;
@@ -177,7 +189,7 @@ to { transform: rotate(360deg) translateY(-255px);}
     width: 510px;
     height: 510px;
     border-radius: 50%;
-    border: 2px solid #50848f;
+    border: 2px solid rgba(255,255,255,0.2);
     position: absolute;
     top: 55px;
     left: -21px;
@@ -200,7 +212,7 @@ to { transform: rotate(360deg) translateY(-290px);}
     width: 580px;
     height: 580px;
     border-radius: 50%;
-    border: 2px solid #50848f;
+    border: 2px solid rgba(255,255,255,0.2);
     position: absolute;
     top: 20px;
     left: -58px;
