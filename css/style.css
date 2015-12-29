@@ -94,9 +94,11 @@ h1{
     margin-top: 60px;
 }
 h3{
+    font-size: 3em;
     text-align: center;
 }
 p{
+    text-align: justify;
     transition: all 0.15s;
 }
 p:hover{
@@ -107,7 +109,20 @@ p:hover{
     margin-top: 5%;
     text-align: justify;
 }
-
+h4{
+    border-bottom: 2px solid #888888;
+    font-size: 1.5em;
+}
+.sous-part-gen-d h4{
+    text-align: right;
+}
+.img-gen{
+    margin-top: 45%
+}
+#univers,#galaxy,#systeme{
+    margin-top: -50px;
+    padding-top: 50px;
+}
 .desc-planete{
     background-color: rgba(255,255,255,0.45);
     padding: 20px 45px;
@@ -120,6 +135,9 @@ p:hover{
     .desc-planete{
         margin-top: 10%;
     }
+    .img-gen{
+    margin-top: 5%;
+}
 }
 @media all and (max-width:600px){
     .desc-planete{
