@@ -113,6 +113,18 @@ h4{
     border-bottom: 2px solid #888888;
     font-size: 1.5em;
 }
+.sous-part-gen-d,.sous-part-gen{
+    overflow: hidden;
+    height: 205px;
+    transition: all 1s ease-in;
+    border: 1px solid black;
+    padding: 2% 5%;
+    margin: 2% 0%;
+}
+.sous-part-gen:hover,.sous-part-gen-d:hover{
+    overflow: hidden;
+    height: 500px;
+}
 .sous-part-gen-d h4{
     text-align: right;
 }
